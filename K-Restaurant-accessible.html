@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="K-Restaurant menu, fried rice recipe, food ordering and customer feedback.">
+    <meta name="author" content="afsheen">
+    <title>K-Restaurant | Recipe Card</title>
+</head>
+
+<body style="background-color: rgba(255, 237, 214, 0.628);">
+
+    <header>
+        <h1 style="text-align: center; color: orange; font-family: 'Times New Roman', Times, serif;">
+            K-Restaurant
+        </h1>
+        <hr>
+    </header>
+
+    <main>
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading" style="text-align: center;">About Our Restaurant</h2>
+            <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+                Our restaurant provides the best food. We prepare our food in a clean way.
+                We do not use old or preserved food items. Our focus is on clean, healthy
+                and balanced food. Customers can place orders online.
+            </p>
+
+            <figure style="text-align: center;">
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+                    alt="Inside view of a restaurant with dining tables and chairs"
+                    width="600"
+                    height="300">
+                <figcaption>Welcome to K-Restaurant</figcaption>
+            </figure>
+
+            <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                       font-weight: 600; color: orange; text-align: center;">
+                Come Hungry, Leave Happy
+            </h2>
+        </section>
+
+        <section aria-labelledby="menu-heading">
+            <h2 id="menu-heading">Our Food Menu</h2>
+
+            <table border="1">
+                <caption>K-Restaurant Food Menu and Prices</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Food name</th>
+                        <th scope="col">Veg price (₹)</th>
+                        <th scope="col">Non-veg price (₹)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Fried Rice</th>
+                        <td>90</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Noodles</th>
+                        <td>100</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Chapathi</th>
+                        <td colspan="2">80</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Burgers</th>
+                        <td>100</td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pizza</th>
+                        <td>110</td>
+                        <td>140</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Coffee Options</h3>
+            <ul>
+                <li>Coffee
+                    <ul>
+                        <li>Black Coffee</li>
+                        <li>Cappuccino</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p>These are our common menu items. Now, let's learn how to make fried rice.</p>
+        </section>
+
+        <section aria-labelledby="recipe-heading">
+            <h2 id="recipe-heading" style="text-align: center; color: orange;">Recipe Card</h2>
+            <hr>
+
+            <h3>Let's Learn About Making Fried Rice</h3>
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1603133872878-684f208fb84b"
+                    alt="A serving of vegetable fried rice in a bowl"
+                    width="400"
+                    height="300">
+                <figcaption>Vegetable fried rice</figcaption>
+            </figure>
+
+            <h3>Ingredients Required</h3>
+            <ul>
+                <li>Rice - 1 cup</li>
+                <li>Egg - 2</li>
+                <li>Carrot - 1</li>
+                <li>Onion - 1</li>
+                <li>Oil - 2 spoons</li>
+                <li>Salt - As required</li>
+            </ul>
+
+            <hr>
+            <h3>Preparation Procedure</h3>
+            <ol>
+                <li>Boil the rice and keep it aside.</li>
+                <li>Heat oil in a pan.</li>
+                <li>Add chopped onions and carrots.</li>
+                <li>Add eggs and mix well.</li>
+                <li>Add the cooked rice.</li>
+                <li>Add salt and pepper.</li>
+                <li>Mix everything properly.</li>
+                <li>Serve hot.</li>
+            </ol>
+
+            <hr>
+            <h3>Cooking Information</h3>
+            <dl>
+                <dt>Preparation Time</dt>
+                <dd>10 minutes</dd>
+                <dt>Cooking Time</dt>
+                <dd>15 minutes</dd>
+                <dt>Servings</dt>
+                <dd>2 people</dd>
+            </dl>
+        </section>
+
+        <section aria-labelledby="order-heading">
+            <h2 id="order-heading">Place Your Food Order</h2>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Customer Details</legend>
+
+                    <label for="customer-name">Customer Name:</label>
+                    <input type="text" id="customer-name" name="name"
+                           autocomplete="name" placeholder="Enter your name" required>
+                    <br><br>
+
+                    <label for="customer-email">Email:</label>
+                    <input type="email" id="customer-email" name="email"
+                           autocomplete="email" placeholder="Enter your email" required>
+                    <br><br>
+
+                    <label for="customer-phone">Phone Number:</label>
+                    <input type="tel" id="customer-phone" name="phone"
+                           autocomplete="tel" placeholder="Enter phone number" required>
+                    <br><br>
+
+                    <label for="delivery-address">Delivery Address:</label>
+                    <textarea id="delivery-address" name="address"
+                              autocomplete="street-address"
+                              placeholder="Enter your address" required></textarea>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Select Your Food</legend>
+
+                    <label for="food-choice">Choose Food:</label>
+                    <select id="food-choice" name="food" required>
+                        <option value="">Select a food item</option>
+                        <option value="fried-rice">Fried Rice</option>
+                        <option value="noodles">Noodles</option>
+                        <option value="chapathi">Chapathi</option>
+                        <option value="burger">Burger</option>
+                        <option value="pizza">Pizza</option>
+                    </select>
+
+                    <br><br>
+
+                    <fieldset>
+                        <legend>Food Type</legend>
+                        <input type="radio" id="veg" name="foodtype" value="veg">
+                        <label for="veg">Veg</label>
+
+                        <input type="radio" id="nonveg" name="foodtype" value="nonveg">
+                        <label for="nonveg">Non-Veg</label>
+                    </fieldset>
+
+                    <br>
+
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity"
+                           min="1" max="20" value="1" required>
+
+                    <br><br>
+
+                    <label for="delivery-time">Delivery Time:</label>
+                    <input type="time" id="delivery-time" name="time" required>
+
+                    <br><br>
+
+                    <label for="special-instructions">Special Instructions:</label>
+                    <textarea id="special-instructions" name="instructions"
+                              placeholder="Any additional requests"></textarea>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+
+                    <input type="radio" id="cash" name="payment" value="cash" required>
+                    <label for="cash">Cash on Delivery</label>
+                    <br>
+
+                    <input type="radio" id="upi" name="payment" value="upi">
+                    <label for="upi">UPI</label>
+                    <br>
+
+                    <input type="radio" id="card" name="payment" value="card">
+                    <label for="card">Card Payment</label>
+                </fieldset>
+
+                <br>
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+
+        <section aria-labelledby="feedback-heading">
+            <h2 id="feedback-heading">Place Your Feedback Here</h2>
+
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Customer Feedback</legend>
+
+                    <label for="feedback-name">Name:</label>
+                    <input type="text" id="feedback-name" name="feedback-name"
+                           autocomplete="name" placeholder="Please enter your name">
+                    <br><br>
+
+                    <label for="feedback-food">Your choice of food:</label>
+                    <br>
+                    <input type="text" id="feedback-food" name="feedback-food"
+                           placeholder="Please enter the foods you have eaten">
+                    <br><br>
+
+                    <label for="food-rating">Rating of food:</label>
+                    <br>
+                    <select id="food-rating" name="rating">
+                        <option value="">Select a rating</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Poor</option>
+                    </select>
+                    <br><br>
+
+                    <label for="customer-feedback">Please enter your feedback:</label>
+                    <br>
+                    <textarea id="customer-feedback" name="feedback"
+                              rows="4" cols="30"
+                              placeholder="Please enter your feedback"></textarea>
+
+                    <br><br>
+                    <button type="submit">Submit Feedback</button>
+                    <button type="reset">Clear</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer style="text-align: center;">
+        <hr>
+        <p>No copyright issues. For queries, contact the restaurant.</p>
+    </footer>
+
+</body>
+</html>
