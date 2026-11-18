@@ -60,4 +60,15 @@ A simple restaurant webpage created using HTML5 to practice webpage structure an
 A multi-page website created to practice HTML structure, navigation, images and forms.
 
 ### 3. Brew Bakes
-A
+A restaurant landing page built using HTML and CSS, featuring a hero section, food menu, About Us, customer reviews and footer.
+
+## 🛠️ Technologies Used
+- HTML5
+- Visual Studio Code
+- Google Chrome
+
+## 🎯 My Learning Goal
+
+To strengthen my HTML fundamentals, improve my webpage structuring skills and build attractive, accessible and user-friendly websites.
+
+**Learning | Practicing | Building | Growing 🚀**
